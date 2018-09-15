@@ -1,3 +1,5 @@
+WS9Wine64Bit3.16
+WS9Wine3.16
 WS9WineStaging64Bit3.15
 WS9WineStaging3.15
 WS9Wine64Bit3.15
@@ -48,6 +50,8 @@ WS9Wine64Bit3.2
 WS9Wine3.2
 WS9Wine64Bit3.1
 WS9Wine3.1
+WS9Wine64Bit3.0.3
+WS9Wine3.0.3
 WS9Wine64Bit3.0.2
 WS9Wine3.0.2
 WS9Wine64Bit3.0.1
