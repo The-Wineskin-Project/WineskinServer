@@ -1,1 +1,1 @@
-Wineskin-2.8.6
+Wineskin-2.8.7Beta1
