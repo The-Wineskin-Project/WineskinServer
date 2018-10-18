@@ -1,1 +1,1 @@
-Wineskin-Winery-1.9.5
+Wineskin-Winery-1.8.0
