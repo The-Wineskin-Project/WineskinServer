@@ -7,6 +7,8 @@ This repo is for Wineskin Unofficial Update
 3) Wineskin Unoffical Update's - Master Wrapper
 
 ## Currently avaliable compiled Wine Versions (Engines)
+- WS10WineCX64Bit18.0.0
+- WS10WineCX18.0.0
 - WS9WineCX64Bit17.5.1
 - WS9WineCX17.5.1
 - WS9WineCX64Bit17.5.0
@@ -18,5 +20,5 @@ This repo is for Wineskin Unofficial Update
 Keeping the same as the original material, LGPL 2.1 is the license of that project. You can find more details about that in the LICENSE file.
 
 ## Credits
-- Special credits for this version go to VitorMM for updaing the original Wineskin
+- Special credits for this version go to VitorMM for updaing the original Wineskin codebase
 - Special thanks to doh123, for creating the original Wineskin.
