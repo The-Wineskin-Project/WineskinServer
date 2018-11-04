@@ -1,6 +1,3 @@
-# WineskinServer
-This repo is for Wineskin Unofficial Update
-
 ## Contained here;
 1) Wine versions packaged as *Engines* to be used with Winery.app
 2) Winery.app - Current versions to be downloaded to update the local version
@@ -20,5 +17,5 @@ This repo is for Wineskin Unofficial Update
 Keeping the same as the original material, LGPL 2.1 is the license of that project. You can find more details about that in the LICENSE file.
 
 ## Credits
-- Special credits for this version go to VitorMM for updaing the original Wineskin codebase
+- VitorMM for modernizing the Wineskin codebase & ObjectiveC_Extension
 - Special thanks to doh123, for creating the original Wineskin.
