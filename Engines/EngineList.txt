@@ -1,3 +1,7 @@
+WS9WineStaging64Bit3.20
+WS9WineStaging3.20
+WS9Wine64Bit3.20
+WS9Wine3.20
 WS9WineStaging64Bit3.19
 WS9WineStaging3.19
 WS9Wine64Bit3.19
