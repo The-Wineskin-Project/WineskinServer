@@ -13,6 +13,9 @@
 
 *Other Wine versions are repacked from Winehq into Engines*
 
+## Issues with custom engines!
+All custom engines are compiled using macOS Clang this however means some features will not work like official versions from WineHQ, I'm looking into building wine using real GCC on macOS or just resort to cross-compiling using docker.
+
 ## License
 Keeping the same as the original material, LGPL 2.1 is the license of that project. You can find more details about that in the LICENSE file.
 
