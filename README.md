@@ -11,14 +11,15 @@
 - WS9WineCX64Bit17.5.0
 - WS9WineCX17.5.0
 
-*Other Wine versions are repacked from Winehq into Engines*
+*Other Wine versions are repacked from [Winehq](https://dl.winehq.org/wine-builds/macosx/pool/) into Engines*
 
 ## Issues with custom engines!
-All custom engines are compiled using macOS Clang this however means some features will not work like official versions from WineHQ, I'm looking into building wine using real GCC on macOS or just resort to cross-compiling using docker.
+All custom engines are compiled on macOS using Apple Clang, this however this causes some [issues](https://wiki.winehq.org/Clang) that means some features will not work like official versions from WineHQ.
+I'm looking into building wine using real gcc on macOS or just resort to [cross-compiling](https://github.com/wine-compholio/wine-packaging) using docker.
 
 ## License
 Keeping the same as the original material, LGPL 2.1 is the license of that project. You can find more details about that in the LICENSE file.
 
 ## Credits
-- VitorMM for modernizing the Wineskin codebase & ObjectiveC_Extension
-- Special thanks to doh123, for creating the original Wineskin.
+- VitorMM for modernizing the [Wineskin Codebase](https://github.com/vitor251093/wineskin) & [ObjectiveC_Extension](https://github.com/vitor251093/ObjectiveC_Extension)
+- Special thanks to doh123, for creating [Wineskin](http://wineskin.urgesoftware.com/tiki-index.php).
