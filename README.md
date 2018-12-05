@@ -14,7 +14,7 @@
 *Other Wine versions are repacked from [Winehq](https://dl.winehq.org/wine-builds/macosx/pool/) into Engines*
 
 ## Issues with custom engines!
-All custom engines are compiled on macOS using Apple Clang, this however this causes some [issues](https://wiki.winehq.org/Clang) that means some features will not work like official versions from WineHQ.
+All custom engines are compiled on macOS using Apple Clang, however this causes some [issues](https://wiki.winehq.org/Clang) that means some features will not work like official versions from WineHQ.
 I'm looking into building wine using real gcc on macOS or just resort to [cross-compiling](https://github.com/wine-compholio/wine-packaging) using docker.
 
 ## License
