@@ -4,6 +4,8 @@
 3) Wineskin Unoffical Update's - Master Wrapper
 
 ## Currently avaliable compiled Wine Versions (Engines)
+- WS10WineCX64Bit18.1.0
+- WS10WineCX18.1.0
 - WS10WineCX64Bit18.0.0
 - WS10WineCX18.0.0
 - WS9WineCX64Bit17.5.1
