@@ -1,3 +1,7 @@
+WS9WineStaging64Bit4.0-rc1
+WS9WineStaging4.0-rc1
+WS9Wine64Bit4.0-rc1
+WS9Wine4.0-rc1
 WS9WineStaging64Bit3.21
 WS9WineStaging3.21
 WS9Wine64Bit3.21
