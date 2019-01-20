@@ -23,7 +23,7 @@ Unlike the [Official Wineskin Project](http://wineskin.urgesoftware.com) by doh1
 All custom engines are compiled on macOS using Apple Clang, however this causes some [issues](https://wiki.winehq.org/Clang) that means some features will not work like official versions from WineHQ.
 
 ## SSL error!?
-Some versions of OSX can get SSL errors, I can't do anything about that as your OS does not support the newer versions of TLS. It may be possbile to use homebrew to update the system included SSL/TLS support but I will be giving no support for that. The issue affects Steam Store & Downloading games so the winetricks workaround would be needed in these cases.
+OSX 10.8 will get SSL errors due to only support TLS1.0, I can't do anything about that as your OS does not support the newer versions of TLS that are required for things like Steam. It may be possbile to use homebrew to update the system included SSL/TLS support but I will be giving no support for that. The issue affects Steam Store & Downloading games so the winetricks workaround would be needed in these cases.
 
 ## License
 Keeping the same as the original material, LGPL 2.1 is the license of that project. You can find more details about that in the LICENSE file.
