@@ -88,6 +88,8 @@ WS9Wine64Bit3.2
 WS9Wine3.2
 WS9Wine64Bit3.1
 WS9Wine3.1
+WS9Wine64Bit3.0.5
+WS9Wine3.0.5
 WS9Wine64Bit3.0.4
 WS9Wine3.0.4
 WS9Wine64Bit3.0.3
