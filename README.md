@@ -8,6 +8,8 @@ Unlike the [Official Wineskin Project](http://wineskin.urgesoftware.com) by doh1
 3) Wineskin Unoffical Update's - *Master Wrapper*
 
 ## Currently avaliable compiled Wine Versions (Engines)
+- WS10WineCX64Bit18.5.0
+- WS10WineCX18.5.0
 - WS10WineCX64Bit18.1.0
 - WS10WineCX18.1.0
 - WS10WineCX64Bit18.0.0 (old bugged compile)
