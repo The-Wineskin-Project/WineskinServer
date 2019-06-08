@@ -7,7 +7,7 @@ Unlike the [Official Wineskin Project](http://wineskin.urgesoftware.com) by doh1
 2) WineskinWinery.app - *The current version will be downloaded updating the local version*
 3) Wineskin Unoffical Update's - *Master Wrapper*
 
-## Currently avaliable compiled Wine Versions (Engines)
+## Currently available compiled Wine Versions (Engines)
 - WS10WineCX64Bit18.5.0
 - WS10WineCX18.5.0
 - WS10WineCX64Bit18.1.0
