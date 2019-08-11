@@ -10,14 +10,6 @@ Unlike the [Official Wineskin Project](http://wineskin.urgesoftware.com) by doh1
 ## Currently available compiled Wine Versions (Engines)
 - WS10WineCX64Bit18.5.0
 - WS10WineCX18.5.0
-- WS10WineCX64Bit18.1.0
-- WS10WineCX18.1.0
-- WS10WineCX64Bit18.0.0 (old bugged compile)
-- WS10WineCX18.0.0
-- WS9WineCX64Bit17.5.1 (old bugged compile)
-- WS9WineCX17.5.1
-- WS9WineCX64Bit17.5.0 (old bugged compile)
-- WS9WineCX17.5.0
 
 *Other Wine versions are repacked from [Winehq](https://dl.winehq.org/wine-builds/macosx/pool/) into Engines*
 
