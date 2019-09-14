@@ -1,6 +1,11 @@
 ## Wineskin Unofficial Update
 A working version of Wineskin using the development code from [Wineskin](https://github.com/vitor251093/wineskin) with some tweaks, the [Original Wineskin Code](https://sourceforge.net/p/wineskin/code) was updated by [VitorMM](https://github.com/vitor251093) and some additional features and fixes by myself.
-Unlike the [Official Wineskin Project](http://wineskin.urgesoftware.com) by doh123 that worked on *MacOSX10.6*, this project will only function on *MacOSX10.8* to *macOS10.14*
+Unlike the [Official Wineskin Project](http://wineskin.urgesoftware.com) by doh123 that worked on *macOSX10.6*, this project is only supported on *MacOSX10.8* to *macOS10.14*
+
+## About macOS Catalina support
+macOS Catalina removes all 32Bit support meaning wine is dead *not wine64*, unless the the application or game is pure 64Bit.
+It’s up to CodeWeavers to get wine to run within a 64Bit thread.
+So once CodeWeavers have a working solution for wine that’s public so will Wineskin.
 
 ## Contained here;
 1) Wine versions packaged as *Engines* to be used with "Wineskin Winery"
@@ -11,7 +16,7 @@ Unlike the [Official Wineskin Project](http://wineskin.urgesoftware.com) by doh1
 - WS10WineCX64Bit18.5.0
 - WS10WineCX18.5.0
 
-*Other Wine versions are repacked from [Winehq](https://dl.winehq.org/wine-builds/macosx/pool/) into Engines*
+*All other Wine versions are repacked from [Winehq](https://dl.winehq.org/wine-builds/macosx/pool/) into Engines*
 
 ## Issues with custom engines!
 Custom Engines are now cross-compiled however they still currently have the following [issues](https://wiki.winehq.org/Clang) that means some features will not work like official versions from WineHQ.
