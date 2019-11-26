@@ -76,6 +76,8 @@ WS9Wine64Bit4.1
 WS9Wine4.1
 WS9WineStaging64Bit4.0
 WS9WineStaging4.0
+WS9Wine64Bit4.0.3
+WS9Wine4.0.3
 WS9Wine64Bit4.0.2
 WS9Wine4.0.2
 WS9Wine64Bit4.0.1
