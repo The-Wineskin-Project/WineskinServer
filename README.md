@@ -2,10 +2,8 @@
 A working version of Wineskin using the development code from [Wineskin](https://github.com/vitor251093/wineskin) with some tweaks, the [Original Wineskin Code](https://sourceforge.net/p/wineskin/code) was updated by [VitorMM](https://github.com/vitor251093) and some additional features and fixes by myself [Unoffical_Wineskin](https://github.com/vitor251093/wineskin/tree/Unoffical_Wineskin).
 Unlike the [Official Wineskin Project](http://wineskin.urgesoftware.com) by doh123 that worked on *macOSX10.6*, this project is only supported on *MacOSX10.8* to *macOS10.14*
 
-## About macOS Catalina support
-macOS Catalina removes all 32Bit support meaning wine is dead *not wine64*, unless the the application or game is pure 64Bit.
-It’s up to CodeWeavers to get wine to run within a 64Bit thread.
-So once CodeWeavers have a working solution for wine that’s public so will Wineskin.
+## About macOS Catalina support;
+*WS11WineCX19.0.1* & *WS11WineCX64Bit19.0.1* include wine32on64 and can function on macOS Catalina but these have not been signed or notarized so to make use of these you need to disable SIP in order for wine32on64 to set the kernal flag to allow 32Bit code execution.
 
 ## Contained here;
 1) Wine versions packaged as *Engines* to be used with "Wineskin Winery"
@@ -13,6 +11,8 @@ So once CodeWeavers have a working solution for wine that’s public so will Win
 3) Wineskin Unoffical Update's - *Master Wrapper*
 
 ## Currently available compiled Wine Versions (Engines)
+- WS11WineCX64Bit19.0.1
+- WS11WineCX19.0.1
 - WS10WineCX64Bit18.5.0
 - WS10WineCX18.5.0
 
