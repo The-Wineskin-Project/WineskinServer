@@ -1,1 +1,1 @@
-Wineskin-2.9.0.5
+Wineskin-2.9.0.6
