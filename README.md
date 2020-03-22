@@ -1,9 +1,6 @@
 ## Wineskin Unofficial Update
 A working version of Wineskin using the development code from [Wineskin](https://github.com/vitor251093/wineskin) with some tweaks, the [Original Wineskin Code](https://sourceforge.net/p/wineskin/code) was updated by [VitorMM](https://github.com/vitor251093) and some additional features and fixes by myself [Unoffical_Wineskin](https://github.com/vitor251093/wineskin/tree/Unoffical_Wineskin).
-Unlike the [Official Wineskin Project](http://wineskin.urgesoftware.com) by doh123 that worked on *macOSX10.6*, this project is only supported on *MacOSX10.8* to *macOS10.14*
-
-## About macOS Catalina support;
-*WS11WineCX19.0.1* & *WS11WineCX64Bit19.0.1* include wine32on64 and can function on macOS Catalina but these have not been signed or notarized so to make use of these you need to disable SIP in order for wine32on64 to set the kernal flag to allow 32Bit code execution.
+Unlike the [Official Wineskin Project](http://wineskin.urgesoftware.com) by doh123 that worked on *macOSX10.6*, this project is only supported on *MacOSX10.9* to *macOS10.14*
 
 ## Contained here;
 1) Wine versions packaged as *Engines* to be used with "Wineskin Winery"
@@ -24,6 +21,12 @@ Custom Engines are now cross-compiled however they still currently have the foll
 ## SSL errors!?
 - OSX 10.8 will get SSL errors due to only supporting TLS1.0
 - OSX 10.9 supports TLS1.2 and that's the required minimum requirement for secure websites and online game platforms like Steam.
+
+### About OS X Mountain Lion (10.8) support;
+Due to changes with secure connections on GitHub `Wineskin Winery` will no longer function on this version, the master wrapper would need to be downloaded manually and `EngineList.txt` place next to `Wineskin Winery` in order for it to function. WineCX engines will also need to be downloaded manually. Winehq repacking *should* still function until that also migrate to requiring a higer SSL/TLS version for secure connections.
+
+### About macOS Catalina (10.15) support;
+*WS11WineCX19.0.1* & *WS11WineCX64Bit19.0.1* include wine32on64 and can function on macOS Catalina but these have not been signed or notarized so to make use of these you need to disable SIP in order for wine32on64 to set the kernal flag to allow 32Bit code execution.
 
 ## License
 Keeping the same as the original material, LGPL 2.1 is the license of that project. You can find more details about that in the LICENSE file.
