@@ -34,3 +34,5 @@ Keeping the same as the original material, LGPL 2.1 is the license of that proje
 ## Credits
 - [VitorMM](https://github.com/vitor251093) for modernizing the [Wineskin Codebase](https://github.com/vitor251093/wineskin) & [ObjectiveC_Extension](https://github.com/vitor251093/ObjectiveC_Extension)
 - Special thanks to doh123, for creating [Wineskin](http://wineskin.urgesoftware.com).
+
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/gcenx?locale.x=en_US)
