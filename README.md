@@ -26,7 +26,8 @@ Custom Engines are now cross-compiled however they still currently have the foll
 Due to changes with secure connections on GitHub `Wineskin Winery` will no longer function on this version, the master wrapper would need to be downloaded manually and `EngineList.txt` place next to `Wineskin Winery` in order for it to function. WineCX engines will also need to be downloaded manually. Winehq repacking *should* still function until that also migrate to requiring a higer SSL/TLS version for secure connections.
 
 ### About macOS Catalina (10.15) support;
-*WS11WineCX19.0.1* & *WS11WineCX64Bit19.0.1* include wine32on64 and can function on macOS Catalina but these have not been signed or notarized so to make use of these you need to disable SIP in order for wine32on64 to set the kernal flag to allow 32Bit code execution.
+*WS11WineCX19.0.1* & *WS11WineCX64Bit19.0.1* include wine32on64 and can function on macOS Catalina but these have not been signed or notarized so to make use of these you need to disable SIP in order for wine32on64 to set the kernal flag to allow 32Bit code execution.  
+__macOS Catalina 10.15.4__ has changed how `no32exec=0` functions, setting this bootflag allows `wine32on64` to function with SIP still enabled.
 
 ## License
 Keeping the same as the original material, LGPL 2.1 is the license of that project. You can find more details about that in the LICENSE file.
