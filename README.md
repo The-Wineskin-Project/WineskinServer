@@ -43,4 +43,5 @@ Keeping the same as the original material, LGPL 2.1 is the license of that proje
 - doh123 for creating [Wineskin](http://wineskin.urgesoftware.com).
 - [val1984](https://github.com/val1984) for noticing the change in `no32exec=0` behavior allowing changes to `i386_set_ldt` with SIP enabled in macOS Catalin 10.15.4
 
+Want to help support this project?  
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://paypal.me/gcenx?locale.x=en_US)
