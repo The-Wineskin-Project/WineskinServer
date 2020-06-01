@@ -2,6 +2,8 @@
 A working version of Wineskin using the development code from [Wineskin](https://github.com/vitor251093/wineskin) with some tweaks, the [Original Wineskin Code](https://sourceforge.net/p/wineskin/code) was updated by [VitorMM](https://github.com/vitor251093) and some additional features and fixes by myself [Unoffical_Wineskin](https://github.com/vitor251093/wineskin/tree/Unoffical_Wineskin).  
 Unlike the [Official Wineskin Project](http://wineskin.urgesoftware.com) by doh123 that worked on *OSX 10.6* to *macOS 10.12* (without tweaks), this project supports *MacOSX10.9* to *macOS10.14*
 
+![Downloads count](https://img.shields.io/github/downloads/gcenx/wineskinserver/total.svg)
+
 ## Contained here;
 1) Wine versions packaged as *Engines* to be used with `Wineskin Winery`
 2) WineskinWinery.app - *The current version will be downloaded updating the local version*
