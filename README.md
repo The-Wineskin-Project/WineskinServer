@@ -18,6 +18,11 @@ Unlike the [Official Wineskin Project](http://wineskin.urgesoftware.com) by doh1
 *All other Wine versions are repacked from [Winehq](https://dl.winehq.org/wine-builds/macosx/pool/) portable releases into Wineskin Engines*  
 This repacking is done on your system.
 
+## DirectX support and wine
+Wine converts D3D to OpenGL and the version on macOS hasn't been updated in years, at precent only __DirectX9__ and earlier functions.\
+__DirectX10 and later are not supported on macOS__\
+__DXVK & VKD3D are also no supported!__
+
 ## macOS Catalina support;
 __WS11WineCX19.0.1-1__ & __WS11WineCX64Bit19.0.1-1__ include `wine32on64` meaning they function on macOS Catalina but as they have not been code-signed & notarized additional steps are required.  
 All future __WS11__ Engines automatically mean Catalina is supported.
