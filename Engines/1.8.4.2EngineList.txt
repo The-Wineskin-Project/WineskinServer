@@ -1,3 +1,7 @@
+WS10WineStaging64Bit5.17
+WS10WineStaging5.17
+WS10Wine64Bit5.17
+WS10Wine5.17
 WS10WineStaging64Bit5.16
 WS10WineStaging5.16
 WS10Wine64Bit5.16
