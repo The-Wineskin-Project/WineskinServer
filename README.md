@@ -23,6 +23,11 @@ Wine converts D3D to OpenGL and the version on macOS hasn't been updated in year
 __DirectX10 and later are not supported on macOS__\
 __DXVK & VKD3D are also no supported!__
 
+## Apple Silicon device support;
+This will require access to one of these devices.\
+The only Engine(s) that will fully function to on these devices will be WineCX20.0.1 or greater.\
+This will also require macOS Big Sur 11.1 or greater and also Rosetta2 to be installed.
+
 ## macOS Catalina support;
 __WS11WineCX19.0.1-1__ & __WS11WineCX64Bit19.0.1-1__ include `wine32on64` meaning they function on macOS Catalina but as they have not been code-signed & notarized additional steps are required.  
 All future __WS11__ Engines automatically mean Catalina is supported.
