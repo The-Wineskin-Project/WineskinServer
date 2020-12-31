@@ -19,7 +19,7 @@ Unlike the [Official Wineskin Project](http://wineskin.urgesoftware.com) by doh1
 This repacking is done on your system.
 
 ## DirectX support and wine
-Wine converts D3D to OpenGL and the version on macOS hasn't been updated in years, at precent only __DirectX9__ and earlier functions.\
+Wine converts D3D to OpenGL and the version on macOS hasn't been updated in years, at present only __DirectX9__ and earlier functions.\
 __DirectX10 and later are not supported on macOS__\
 __DXVK & VKD3D are also no supported!__
 
