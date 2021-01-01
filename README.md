@@ -1,6 +1,6 @@
 ## Wineskin Unofficial Update
 A working version of Wineskin using the development code from [Wineskin](https://github.com/vitor251093/wineskin) with some tweaks, the [Original Wineskin Code](https://sourceforge.net/p/wineskin/code) was updated by [VitorMM](https://github.com/vitor251093) and some additional features and fixes by myself [Unoffical_Wineskin](https://github.com/vitor251093/wineskin/tree/Unoffical_Wineskin).  
-Unlike the [Official Wineskin Project](http://wineskin.urgesoftware.com) by doh123 that worked on *OS X 10.6* to *macOS 10.12* (without tweaks), this project supports *MacOSX10.9* to *macOS10.14*
+Unlike the [Official Wineskin Project](http://wineskin.urgesoftware.com) by doh123 that worked on *OS X 10.6* to *macOS 10.12* (without tweaks), this project supports *MacOSX10.9* to *macOS11*
 
 ![Downloads count](https://img.shields.io/github/downloads/gcenx/wineskinserver/total.svg)
 
@@ -23,10 +23,12 @@ Wine converts D3D to OpenGL and the version on macOS hasn't been updated in year
 __DirectX10 and later are not supported on macOS__\
 __DXVK & VKD3D are also no supported!__
 
-## Apple Silicon device support;
+## Apple Silicon support (Rosetta2);
 This will require access to one of these devices.\
 The only Engine(s) that will fully function to on these devices will be WineCX20.0.1 or greater.\
-This will also require macOS Big Sur 11.1 or greater and also Rosetta2 to be installed.
+This will require macOS Big Sur 11.1 or greater and Rosetta2 needs to be installed.\
+However ddraw and direct3d won't function currently so things like cnc-ddraw and DxWnd need to be used\
+to play older titles, but newer titles like Fallout New Vegas will function.
 
 ## macOS Catalina support;
 __WS11WineCX19.0.1-1__ & __WS11WineCX64Bit19.0.1-1__ include `wine32on64` meaning they function on macOS Catalina but as they have not been code-signed & notarized additional steps are required.  
