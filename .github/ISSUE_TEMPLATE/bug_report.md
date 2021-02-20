@@ -12,8 +12,10 @@ assignees: ''
  - Winery version:
  - Master Wrapper version:
  - Engine version:
- - Hardware: [e.g. MacBook Pro 13 2016, Mac mini 2020...]**Describe the bug**
-A clear and concise description of what the bug is.  
+ - Hardware: [e.g. MacBook Pro 13 2016, Mac mini 2020...]
+
+**Describe the bug**
+A clear and concise description of what the bug is. 
 
 **To Reproduce**
 Steps to reproduce the behavior:
