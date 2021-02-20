@@ -7,6 +7,11 @@ assignees: ''
 
 ---
 
+<!--
+Before posting your issue, please check the Wiki for informations:
+    https://github.com/Gcenx/WineskinServer/wiki
+-->
+
 **Environment (please complete the following information):**
  - OS: [e.g. macOS version (10.13, 10.14, 10.15.4, 11...)]
  - Winery version:
@@ -18,11 +23,12 @@ assignees: ''
 A clear and concise description of what the bug is. 
 
 **To Reproduce**
-Steps to reproduce the behavior:
+Describe the steps to reproduce the behavior:
+[e.g.
 1. Go to '...'
 2. Click on '....'
 3. Scroll down to '....'
-4. See error
+4. See error]
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.
