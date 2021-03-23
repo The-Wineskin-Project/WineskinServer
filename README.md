@@ -1,9 +1,15 @@
 ## Wineskin Unofficial Update
 A working version of Wineskin using the development code from [Wineskin](https://github.com/vitor251093/wineskin) with some tweaks, the [Original Wineskin Code](https://sourceforge.net/p/wineskin/code) was updated by [VitorMM](https://github.com/vitor251093) and some additional features and fixes by myself [Unoffical_Wineskin](https://github.com/vitor251093/wineskin/tree/Unoffical_Wineskin).  
-Unlike the [Official Wineskin Project](http://wineskin.urgesoftware.com) by doh123 that worked on *OS X 10.6* to *macOS 10.12* (without tweaks), this project supports *MacOSX10.9* to *macOS11*
+Unlike the [Official Wineskin Project](http://wineskin.urgesoftware.com) by doh123 that worked on *OS X 10.6* to *macOS 10.12* (without tweaks), this project supports *MacOSX10.13* to *macOS11*
 
 ![Downloads count](https://img.shields.io/github/downloads/gcenx/wineskinserver/total.svg)  
-[Download Wineskin Winery v1.8.4.2](https://github.com/Gcenx/WineskinServer/releases/download/V1.8.4.2/Wineskin.Winery.txz) *<-Recommended*
+Install using [brew](https://brew.sh/)
+```
+brew tap gcenx/wine
+brew install --no-quarantine unofficial-wineskin
+```
+Alternativly download manually  
+[Download Wineskin Winery v1.8.4.2](https://github.com/Gcenx/WineskinServer/releases/download/V1.8.4.2/Wineskin.Winery.txz) *<-Recommended Version*
 
 ## Contained here;
 1) Wine versions packaged as *Engines* to be used with `Wineskin Winery`
@@ -11,12 +17,14 @@ Unlike the [Official Wineskin Project](http://wineskin.urgesoftware.com) by doh1
 3) Wineskin Unofficial Updates - *Master Wrapper*
 
 ## Currently available compiled Wine Versions (Engines)
-- WS11WineCX64Bit20.0.0   *(10.9 > 11.x)*
-- WS11WineCX20.0.0        *(10.9 > 11.x)*
-- WS11WineCX64Bit19.0.1-2 *(10.9 > 11.x)*
-- WS11WineCX19.0.1-2      *(10.9 > 11.x)*
-- WS10WineCX64Bit18.5.0   *(10.9 > 10.14)*
-- WS10WineCX18.5.0        *(10.9 > 10.14)*
+- WS11WineCX64Bit20.0.2   *(10.13 > 11.x)*
+- WS11WineCX20.0.2        *(10.13 > 11.x)*
+- WS11WineCX64Bit20.0.0   *(10.13 > 11.x)*
+- WS11WineCX20.0.0        *(10.13 > 11.x)*
+- WS11WineCX64Bit19.0.1-2 *(10.13 > 11.x)*
+- WS11WineCX19.0.1-2      *(10.13 > 11.x)*
+- WS10WineCX64Bit18.5.0   *(10.13 > 10.14)*
+- WS10WineCX18.5.0        *(10.13 > 10.14)*
 
 *All other Wine versions are repacked from [Winehq](https://dl.winehq.org/wine-builds/macosx/pool/) portable releases into Wineskin Engines*  
 This repacking is done on your system.
@@ -70,6 +78,7 @@ __See the following examples;__
 Keeping the same as the original material, LGPL 2.1 is the license of that project. You can find more details about that in the LICENSE file.
 
 ## Credits
-- [VitorMM](https://github.com/vitor251093) for modernizing the [Wineskin Codebase](https://github.com/vitor251093/wineskin) & [ObjectiveC_Extension](https://github.com/vitor251093/ObjectiveC_Extension)
-- [PaulTheTall](https://www.paulthetall.com/) for constant test data and finding bugs
+- [VitorMM](https://github.com/vitor251093) for modernizing the [Wineskin Codebase](https://github.com/vitor251093/wineskin) & [ObjectiveC_Extension](https://github.com/vitor251093/ObjectiveC_Extension).
+- [PaulTheTall](https://www.paulthetall.com/) for constant test data and finding bugs.
 - doh123 for creating [Wineskin](http://wineskin.urgesoftware.com).
+- [thmrtz](https://github.com/thmrtnz) for the issue template, documention and the wiki.
