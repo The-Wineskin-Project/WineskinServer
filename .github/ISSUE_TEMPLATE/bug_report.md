@@ -18,6 +18,7 @@ Before posting your issue, please check the Wiki for informations:
  - Master Wrapper version:
  - Engine version:
  - Hardware: <!-- e.g. MacBook Pro 13 2016, Mac mini 2020 etc -->
+ - Application/Game Name <!-- This field is required, no abbreviations -->
 
 **Describe the bug**
 <!--
@@ -40,6 +41,14 @@ e.g.
 **Screenshots**
 <!--
 If applicable, add screenshots to help explain your problem.
+-->
+
+**LastRunWine.log**
+<!--
+Place contents inside a code block, 
+``` 
+LastRunWine.log contents here
+```
 -->
 
 **Additional context**
