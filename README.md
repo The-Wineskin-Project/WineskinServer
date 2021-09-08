@@ -40,8 +40,6 @@ __VKD3D is no supported!__
 ## Apple Silicon support (Rosetta2);
 The only Engine(s) that fully function to on these devices is WineCX20.0.4 or greater.\
 This will require macOS Big Sur 11.1 or greater and Rosetta2 needs to be installed.\
-__However__ older games that use are fullscreen at lower screen resolutions will fail as the\
-Apple GPU doesn't seem to support these, using things like `cnc-ddraw` or `DxWnd` to workaround this.
 
 <br>
 
