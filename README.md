@@ -1,31 +1,26 @@
-## Wineskin Unofficial Update
-A working version of Wineskin using the development code from [Wineskin](https://github.com/vitor251093/wineskin) with some tweaks, the [Original Wineskin Code](https://sourceforge.net/p/wineskin/code) was updated by [VitorMM](https://github.com/vitor251093) and some additional features and fixes by myself [Unoffical_Wineskin](https://github.com/vitor251093/wineskin/tree/Unoffical_Wineskin).  
-Unlike the [Official Wineskin Project](http://wineskin.urgesoftware.com) by doh123 that worked on *OS X 10.6* to *macOS 10.12* (without tweaks), this project supports *MacOSX10.13* to *macOS11*
+# Wineskin
+Wineskin is a user-friendly tool used to make ports of Microsoft Windows software to macOS.\
+Unlike the original [Wineskin Project](http://wineskin.urgesoftware.com) by doh123 that worked on *OS X 10.6* to *macOS 10.12* (without tweaks), this project supports *MacOSX10.13* to *macOS11*
 
 <br>
 
-### Install using [homebrew](https://brew.sh/)
+## How to install
+### [homebrew](https://brew.sh/)
 ```
-brew tap gcenx/wine
-brew install --no-quarantine unofficial-wineskin
+brew install --no-quarantine gcenx/wine/unofficial-wineskin
 ```
-<br>
 
-### Manually installation  
-[Download Wineskin Winery v1.8.4.2](https://github.com/Gcenx/WineskinServer/releases/download/V1.8.4.2/Wineskin.Winery.txz)  
-![Downloads count](https://img.shields.io/github/downloads/gcenx/wineskinserver/total.svg)
-
-<br>
-
-## Contained here;
-1) Wine versions packaged as *Engines* to be used with `Wineskin Winery`
-2) WineskinWinery.app - *The current version will be downloaded updating the local version*
-3) Wineskin Unofficial Updates - *Master Wrapper*
+### Manual installation - (_not recommneded!_)  
+[Download Wineskin Winery v1.8.4.2](https://github.com/Gcenx/WineskinServer/releases/download/V1.8.4.2/Wineskin.Winery.txz)\
+*_After downloading remove the flag quarantine before extraction, don't extract using __Keka___
+```
+xattr -drs com.apple.quarantine Wineskin.Winery.txz
+```
 
 <br>
 
-## DirectX support and wine
-Wine converts D3D to OpenGL and the version on macOS hasn't been updated in years, at present only __DirectX9__ and earlier function.\
+## DirectX support
+WineD3D by default converts D3D to OpenGL, OpenGL on macOS hasn't been updated in years, at present only __DirectX9__ and earlier function.\
 __DXVK__ Requirements are not entirely known at this time, however as CodeWeavers locks support to macOS High Sierra this would be a good start.\
 To make use of DXVK use a 64Bit WS10 or greater engine, open winetricks and run the following custom command;
 ```
@@ -37,21 +32,21 @@ __VKD3D is no supported!__
 
 <br>
 
-## Apple Silicon support (Rosetta2);
+## Apple Silicon support (Rosetta2)
 The only Engine(s) that fully function to on these devices is WineCX20.0.4 or greater.\
-This will require macOS Big Sur 11.1 or greater and Rosetta2 needs to be installed.\
+This will require macOS Big Sur 11.1 or greater and Rosetta2 needs to be installed.
 
 <br>
 
-## macOS Catalina support;
-__WS11WineCX19.0.2-2__ & __WS11WineCX64Bit19.0.2-2__ include `wine32on64` meaning they function on macOS Catalina but as they have not been code-signed & notarized additional steps are required.  
+## macOS Catalina support
+__WS11WineCX19.0.4__ & __WS11WineCX64Bit19.0.4__ include `wine32on64` meaning they function on macOS Catalina. 10.15.4 or greater.\
 All future __WS11__ Engines automatically mean Catalina is supported.
 
 <br>
 
-### macOS Catalina (10.15.3 and below);
+### macOS Catalina (10.15.3 and below)
 SIP needs to be disabled to make changes to `i386_set_ldt` for `wine32on64` to function.\
-I don't recommend this configuration so won't provide instructions instead upgrade to macOS Catalina10.15.4 or greater.
+__This configuration is not supported, upgrade to macOS Catalina 10.15.4 or greater.__
 
 <br>
 
@@ -75,9 +70,9 @@ __Intel__ based systems should work without issue.
 # FAQ
 ### My Antivirus says it's a VIRUS!!!
 You need to contact your AntiVirus/AntiMalware vender to connect these false positives.\
-This started once wine moved to using *Mingw-gcc* to compile PE binaries.\
+This started once wine moved to using *Mingw-gcc* to compile PE binaries.
 
-__See the following examples;__
+__See the following examples__
 - [CrossOver 19 and anti virus programs](https://www.codeweavers.com/support/forums/general/?t=27;msg=222870)
 - [Windows Defender detects Occamy.c trojan in steam proton 5.0 folder](https://github.com/ValveSoftware/Proton/issues/3593)
 
