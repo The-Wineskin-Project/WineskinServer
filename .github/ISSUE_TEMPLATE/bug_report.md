@@ -8,7 +8,8 @@ assignees: ''
 ---
 
 <!--
-Before posting your issue, please check the Wiki for informations:
+Before posting your issue, please check the README.md & Wiki for informations:
+    https://github.com/Gcenx/WineskinServer/blob/master/README.md
     https://github.com/Gcenx/WineskinServer/wiki
 -->
 
