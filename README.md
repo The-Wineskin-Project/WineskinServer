@@ -1,6 +1,6 @@
 # Wineskin
 Wineskin is a user-friendly tool used to make ports of Microsoft Windows software to macOS.\
-Unlike the original [Wineskin Project](http://wineskin.urgesoftware.com) by doh123 that worked on *OS X 10.6* to *macOS 10.12* (without tweaks), this project supports *MacOSX10.13* to *macOS11*
+Unlike the original [Wineskin Project](http://wineskin.urgesoftware.com) by doh123 that worked on *Mac OS X 10.6* to *macOS 10.12* (without tweaks), this project supports *OS X 10.13 High Sierra* to *macOS 11 Monterey*. Both Intel (x86_64) and Apple Silicon (ARM) hardware is supported. When using the appropriate runtime, both 32-bit and 64-bit x86 applications can be run on either Intel or Apple Silicon CPUs.
 
 <br>
 
@@ -10,7 +10,7 @@ Unlike the original [Wineskin Project](http://wineskin.urgesoftware.com) by doh1
 brew install --no-quarantine gcenx/wine/unofficial-wineskin
 ```
 
-### Manual installation - (_not recommneded!_)  
+### Manual installation - (_not recommneded!_)
 [Download Wineskin Winery v1.8.4.2](https://github.com/Gcenx/WineskinServer/releases/download/V1.8.4.2/Wineskin.Winery.txz)\
 *_After downloading remove the flag quarantine before extraction, don't extract using __Keka___
 ```
@@ -62,7 +62,7 @@ __*Disabling GateKeeper is not recommended*__
 <br>
 
 ## Hackintosh Support?
-__AMD__ based systems are not supported due to being unable to run 32Bit code on macOS.  
+__AMD__ based systems are not supported due to being unable to run 32Bit code on macOS.
 __Intel__ based systems should work without issue.
 
 <br>
