@@ -22,11 +22,10 @@ xattr -drs com.apple.quarantine Wineskin.Winery.txz
 ## DirectX support
 WineD3D by default converts D3D to OpenGL, OpenGL on macOS hasn't been updated in years, at present only __DirectX9__ and earlier function.\
 __DXVK__ Requirements are not entirely known at this time, however as CodeWeavers locks support to macOS High Sierra this would be a good start.\
-To make use of DXVK use a 64Bit WS10 or greater engine, open winetricks and run the following custom command;
-```
-dxvk_macos.verb
-```
-This will install DXVK for DirectX10 and DirectX11 support for 64Bit games.\
+Open the winetricks menu and select one of the provided DXVK macOS verbs.\
+For older wrappers ensue you've updated winetricks to get my forked version.
+
+This will install DXVK for __DirectX 10__ and __DirectX 11__ support for 64Bit games.\
 __32Bit DirectX10 and later is not supported on macOS__\
 __VKD3D is no supported!__
 
