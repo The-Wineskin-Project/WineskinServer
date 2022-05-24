@@ -12,9 +12,9 @@ brew install --no-quarantine gcenx/wine/unofficial-wineskin
 
 ### Manual installation - (_not recommended!_)  
 [Download Wineskin Winery v1.8.4.2](https://github.com/Gcenx/WineskinServer/releases/download/V1.8.4.2/Wineskin.Winery.txz)\
-*_After downloading remove the flag quarantine before extraction, don't extract using __Keka___ 
+*_After downloading remove the flag quarantine before extraction, don't extract using __Keka___ make sure to drag and drop the wineskin file on the terminal with the command
 ```
-xattr -drs com.apple.quarantine //drag and drop the file from the wineskin file 
+xattr -drs com.apple.quarantine 
 ```
 
 <br>
