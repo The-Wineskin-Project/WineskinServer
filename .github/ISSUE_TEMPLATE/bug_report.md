@@ -56,3 +56,5 @@ LastRunWine.log contents here
 <!--
 Add any other context about the problem here.
 -->
+
+Incorrectly filled out issues will be close without notice!
