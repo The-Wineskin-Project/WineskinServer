@@ -7,7 +7,7 @@ Unlike the original [Wineskin Project](http://wineskin.urgesoftware.com) by doh1
 ## How to install
 ### [homebrew](https://brew.sh/)
 ```
-brew install --no-quarantine gcenx/wine/unofficial-wineskin
+brew install --cask --no-quarantine gcenx/wine/unofficial-wineskin
 ```
 
 ### Manual installation - (_not recommended!_)  
