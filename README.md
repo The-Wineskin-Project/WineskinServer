@@ -14,7 +14,7 @@ brew install --cask --no-quarantine gcenx/wine/unofficial-wineskin
 [Download Wineskin Winery](https://github.com/Gcenx/WineskinServer/releases/download/V1.8.4.2/Wineskin.Winery.txz)\
 *_After downloading remove the flag quarantine before extraction, don't extract using __Keka___
 ```
-xattr -drs com.apple.quarantine Wineskin.Winery.txz
+/usr/bin/xattr -drs com.apple.quarantine Wineskin.Winery.txz
 ```
 
 <br>
