@@ -84,3 +84,4 @@ WS9WineStaging5.0
 WS9Wine64Bit5.0
 WS9Wine5.0
 WS11WineCX64Bit22.0.1-2
+WS11WineCX64Bit22.1.0-rc1
