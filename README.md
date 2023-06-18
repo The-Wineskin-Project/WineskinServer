@@ -4,6 +4,11 @@ Unlike the original [Wineskin Project](http://wineskin.urgesoftware.com) by doh1
 
 <br>
 
+## Want to help support this project?
+[![Donate with PayPal](https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png)](https://www.paypal.com/paypalme/gcenx)
+
+<br>
+
 ## How to install
 ### [homebrew](https://brew.sh/)
 ```
@@ -20,33 +25,21 @@ brew install --cask --no-quarantine gcenx/wine/unofficial-wineskin
 <br>
 
 ## DirectX support
-WineD3D by default converts D3D to OpenGL, OpenGL on macOS hasn't been updated in years, at present only __DirectX9__ and below will function.\
 
-__DXVK__ GPU requirements are not entirely known, however as CodeWeavers locks support to macOS High Sierra this would be a good start.\
-Open the winetricks menu and select one of the provided DXVK macOS verbs.\
-For older wrappers ensue you've updated winetricks to get my forked version.
+__D3DMetal__\
+Supports 64Bit DirectX 11 & 12 via Metal.\
+Follow the steps provided [here](https://github.com/Gcenx/WineskinServer/issues/420)
 
-DXVK_macOS will install DXVK for __DirectX 10__ and __DirectX 11__ for 64Bit games.\
-__32Bit DirectX10 and later is not supported on macOS prior to WineCX22.1.0__\
-__VKD3D is not supported!__
+__WineD3D__\
+Supports DirectX 11 and below.
+- OpenGL backend is used for DirectX 9 and below
+- Vulkan backend is used for DirectX 10 & 11
 
-<br>
+__DXVK__\
+Supports DirectX 10 & 11 via Vulkan
 
-## Apple Silicon support (Rosetta2)
-The only Engine(s) that fully function to on these devices is WineCX20.0.4 or greater.\
-This will require macOS Big Sur 11.1 or greater and Rosetta2 needs to be installed.
-
-<br>
-
-## macOS Catalina support
-__WS11WineCX19.0.4__ & __WS11WineCX64Bit19.0.4__ use `32on64` meaning they function on macOS Catalina. 10.15.4 or greater.\
-All future __WS11__ Engines automatically mean Catalina is supported.
-
-<br>
-
-### macOS Catalina (10.15.3 and below)
-SIP needs to be disabled to make changes to `i386_set_ldt` for `32on64` to function.\
-__This configuration is not supported, upgrade to macOS Catalina 10.15.4 or greater.__
+__VKD3D__\
+Is currently not supported
 
 <br>
 
