@@ -5,7 +5,7 @@ Unlike the original [Wineskin Project](http://wineskin.urgesoftware.com) by doh1
 <br>
 
 ## Want to help support this project?
-[![Donate with PayPal](https://raw.githubusercontent.com/stefan-niedermann/paypal-donate-button/master/paypal-donate-button.png)](https://www.paypal.com/paypalme/gcenx)
+[![PayPal](https://img.shields.io/badge/PayPal-Donate-blue?style=for-the-badge&logo=paypal)](https://www.paypal.com/paypalme/gcenx)
 
 <br>
 
