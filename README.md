@@ -29,15 +29,18 @@ brew install --cask --no-quarantine gcenx/wine/wineskin
 
 __D3DMetal__\
 Supports 64Bit DirectX 11 & 12 via Metal.\
-Follow the steps provided [here](https://github.com/Gcenx/WineskinServer/issues/420)
+Since "Game porting toolkit" 1.0.4 Apple now allows redistriution for none commercial uses.\
+You can view Apples documentionion [here](https://github.com/Gcenx/WineskinServer/tree/master/D3DMetal)
 
 __WineD3D__\
 Supports DirectX 11 and below.
 - OpenGL backend is used for DirectX 9 and below
 - Vulkan backend is used for DirectX 10 & 11
+_Not useable in D3DMetal Engines_
 
 __DXVK__\
-Supports DirectX 10 & 11 via Vulkan
+Supports DirectX 10 & 11 via Vulkan.\
+_DXVK is not compatible with D3DMetal Engines_
 
 __VKD3D__\
 Is currently not supported
