@@ -29,7 +29,7 @@ brew install --cask --no-quarantine gcenx/wine/wineskin
 
 __D3DMetal__\
 Supports 64Bit DirectX 11 & 12 via Metal.\
-Since "Game porting toolkit" 1.0.4 Apple now allows redistriution for none commercial uses.\
+Since "Game porting toolkit" 1.0 beta 4 Apple now allows redistriution for none commercial uses.\
 You can view Apples documentionion [here](https://github.com/Gcenx/WineskinServer/tree/master/D3DMetal)
 
 __WineD3D__\
