@@ -47,17 +47,6 @@ Is currently not supported
 
 <br>
 
-## GateKeeper
-Windows applications are not code-signed in a way that GateKeeper understands.\
-Either remove the quarantine flag using `xattr -drs com.apple.quarantine {exe here}`\
-or disable GateKeeper entirely by running the following
-```
-sudo spctl --master-disable
-```
-__*Disabling GateKeeper is not recommended*__
-
-<br>
-
 ## Hackintosh Support?
 __AMD__ based systems are not supported due to being unable to run 32Bit code on macOS.  
 __Intel__ based systems should work without issue.
