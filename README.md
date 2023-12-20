@@ -30,8 +30,8 @@ brew install --cask --no-quarantine gcenx/wine/wineskin
 __WineD3D__\
 Supports DirectX 11 and below.
 - OpenGL backend is used for DirectX 9 and below
-- Vulkan backend is used for DirectX 10 & 11
-__Not useable in D3DMetal Engines_
+- Vulkan backend is used for DirectX 10 & 11  
+_Not useable in D3DMetal Engines_
 
 __D3DMetal__\
 Supports 64Bit DirectX 11 & 12 via Metal.\
