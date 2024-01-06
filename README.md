@@ -35,8 +35,8 @@ _Not useable in D3DMetal Engines_
 
 __D3DMetal__\
 Supports 64Bit DirectX 11 & 12 via Metal.\
-Since "Game porting toolkit" 1.0 beta 4 Apple now allows redistriution for none commercial uses.\
-You can view Apples documentionion [here](https://github.com/Gcenx/WineskinServer/tree/master/D3DMetal)
+Since "Game porting toolkit" 1.0 beta 4 Apple now allows redistribution for none commercial uses.\
+You can view  Apple's documentation [here](https://github.com/Gcenx/WineskinServer/tree/master/D3DMetal).
 
 __DXVK__\
 Supports DirectX 10 & 11 via Vulkan.\
