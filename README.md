@@ -12,15 +12,15 @@ Unlike the original [Wineskin Project](https://web.archive.org/web/2014121808102
 
 ## How to install
 ### [homebrew](https://brew.sh/)
+#### Uninstall the old version
 ```
-brew install --cask --no-quarantine gcenx/wine/wineskin
+brew uninstall --force --zap wineskin
+brew uninstall --force --zap gstreamer-runtime
 ```
 
-### Manual installation - (_not recommended!_)  
-[Download Wineskin Winery](https://github.com/Gcenx/WineskinServer/releases/download/V1.8.4.2/Wineskin.Winery.txz)\
-*_After downloading remove the flag quarantine before extraction, don't extract using __Keka___
+#### Install the new version
 ```
-/usr/bin/xattr -drs com.apple.quarantine Wineskin.Winery.txz
+brew install --cask --no-quarantine gcenx/wine/wineskin-devel
 ```
 
 <br>
