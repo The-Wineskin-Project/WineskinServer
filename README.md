@@ -31,16 +31,19 @@ __WineD3D__\
 Supports DirectX 11 and below.
 - OpenGL backend is used for DirectX 9 and below
 - Vulkan backend is used for DirectX 10 & 11  
-_Not useable in D3DMetal Engines_
+_When Enabled D3DMetal when takes over 64Bit DirectX 11 & DirectX 12_
 
 __D3DMetal__\
 Supports 64Bit DirectX 11 & 12 via Metal.\
 Since "Game porting toolkit" 1.0 beta 4 Apple now allows redistribution for none commercial uses.\
 You can view  Apple's documentation [here](https://github.com/Gcenx/WineskinServer/tree/master/D3DMetal).
 
+__D9VK__\
+Supports DirectX 9 via Vulkan.
+
 __DXVK__\
 Supports DirectX 10 & 11 via Vulkan.\
-_DXVK is not compatible with D3DMetal Engines_
+_D3DMetal is forced when Enabled_
 
 __VKD3D__\
 Limited DirectX 12 support.\
