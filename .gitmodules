@@ -1,3 +1,6 @@
 [submodule "Winery"]
 	path = Winery
 	url = https://github.com/The-Wineskin-Project/Winery.git
+[submodule "Engines"]
+	path = Engines
+	url = https://github.com/The-Wineskin-Project/Engines.git
