@@ -14,6 +14,8 @@ Unlike the original [Wineskin Project](https://web.archive.org/web/2014121808102
 ### [homebrew](https://brew.sh/)
 #### Uninstall the old version
 ```
+brew update
+brew upgrade
 brew uninstall --force --zap wineskin
 brew uninstall --force --zap gstreamer-runtime
 ```
