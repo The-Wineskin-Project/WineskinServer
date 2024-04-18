@@ -14,10 +14,10 @@ Before posting your issue, please check the README.md & Wiki for informations:
 -->
 
 **Environment (please complete the following information):**
- - OS: <!-- e.g. macOS version (10.13, 10.14, 10.15.4, 11.x etc) -->
- - Winery version:
- - Master Wrapper version:
- - Engine version:
+ - OS: <!-- e.g. macOS version (10.15.4, 11.x, 12.x, 13.x, 14.x etc) -->
+ - Winery version: <!-- latest v2.0.1 -->
+ - Master Wrapper version: <!-- latest 3.0.1 -->
+ - Engine version: <!-- latest 23.7.1-2 -->
  - Hardware: <!-- e.g. MacBook Pro 13 2016, Mac mini 2020 etc -->
  - Application/Game Name <!-- This field is required, no abbreviations -->
 
@@ -37,7 +37,9 @@ e.g.
 -->
 
 **Expected behavior**
-<!-- A clear and concise description of what you expected to happen. -->
+<!--
+A clear and concise description of what you expected to happen.
+-->
 
 **Screenshots**
 <!--
@@ -50,6 +52,7 @@ Place contents inside a code block,
 ``` 
 LastRunWine.log contents here
 ```
+If the log ois larger drag/drop into the issue window.
 -->
 
 **Additional context**
@@ -57,4 +60,6 @@ LastRunWine.log contents here
 Add any other context about the problem here.
 -->
 
+<!--
 Incorrectly filled out issues will be close without notice!
+-->
