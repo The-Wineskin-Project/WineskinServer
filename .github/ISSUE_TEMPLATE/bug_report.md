@@ -16,7 +16,7 @@ Before posting your issue, please check the README.md & Wiki for informations:
 **Environment (please complete the following information):**
  - OS: <!-- e.g. macOS version (10.15.4, 11.x, 12.x, 13.x, 14.x etc) -->
  - Winery version: <!-- latest v2.0.3 -->
- - Master Wrapper version: <!-- latest 3.0.5 -->
+ - Master Wrapper version: <!-- latest 3.0.5-1 -->
  - Engine version: <!-- latest 23.7.1-3_rc1 -->
  - Hardware: <!-- e.g. MacBook Pro 13 2016, Mac mini 2020 etc -->
  - Application/Game Name <!-- This field is required, no abbreviations -->
