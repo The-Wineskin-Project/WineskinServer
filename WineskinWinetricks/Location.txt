@@ -1,1 +1,1 @@
-https://raw.githubusercontent.com/The-Wineskin-Project/winetricks/macOS/src/winetricks
+https://raw.githubusercontent.com/The-Wineskin-Project/winetricks/wineskin/src/winetricks
