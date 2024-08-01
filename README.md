@@ -22,7 +22,7 @@ brew uninstall --force --zap gstreamer-runtime
 
 #### Install the new version
 ```
-brew install --cask --no-quarantine gcenx/wine/wineskin
+brew install --cask --no-quarantine The-Wineskin-Project/wineskin/wineskin
 ```
 
 <br>
