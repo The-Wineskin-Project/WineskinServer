@@ -75,6 +75,9 @@ Keeping the same as the original material, LGPL 2.1 is the license of that proje
 
 <br>
 
+## Want to contribute
+You can find the current sources [here](https://github.com/The-Wineskin-Project/wineskin-source)
+
 ## Credits
 - [VitorMM](https://github.com/vitor251093) for modernizing the [Wineskin Codebase](https://github.com/vitor251093/wineskin) & [ObjectiveC_Extension](https://github.com/vitor251093/ObjectiveC_Extension).
 - [PaulTheTall](https://www.paulthetall.com/) for constant test data and finding bugs.
