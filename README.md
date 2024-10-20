@@ -1,3 +1,12 @@
+# Development of Wineakin is currently on hold
+Vitor & myself have moved onto [Kegworks](https://github.com/Kegworks-App/Kegworks)
+
+For now this repo will be archived.
+
+<br>
+
+<br>
+
 # Wineskin
 Unlike the original [Wineskin Project](https://web.archive.org/web/20141218081028/http://wineskin.urgesoftware.com/tiki-index.php) by doh123 that worked on *OS X 10.6* to *macOS 10.12* (without tweaks), this project supports *macOS 10.15.4* and later.
 
